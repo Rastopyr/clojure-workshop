@@ -1,6 +1,6 @@
-(ns clojure-sample-backend.core-test
+(ns clojure-workshop.core-test
   (:require [clojure.test :refer :all]
-            [clojure-sample-backend.core :refer :all]))
+            [clojure-workshop.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

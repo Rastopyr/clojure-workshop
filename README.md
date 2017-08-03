@@ -1,4 +1,4 @@
-# clojure-sample-backend
+# clojure-workshop
 
 Sample application for the Clojure Kiev workshop
 
