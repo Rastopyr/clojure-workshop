@@ -8,5 +8,5 @@
                  [ring/ring-jetty-adapter "1.6.2"]
                  [ring/ring-defaults "0.3.1"]]
   :source-paths ["dev" "src"])
-  ;:main clojure-sample-backend.core)
+  ;:main clojure-workshop.core)
 

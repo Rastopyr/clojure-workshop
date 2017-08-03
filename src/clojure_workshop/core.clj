@@ -14,7 +14,7 @@
 (def server (atom nil))
 
 (defn start []
-  (reset! server (jetty/run-jetty #'core/wrapped-app {:join? false :port 8080})))
+  (reset! server (jetty/run-jetty #'wrapped-app {:join? false :port 8080})))
 
 (defn stop []
   (.stop @server))
