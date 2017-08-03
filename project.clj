@@ -7,5 +7,6 @@
                  [compojure "1.6.0"]
                  [ring/ring-jetty-adapter "1.6.2"]
                  [ring/ring-defaults "0.3.1"]]
-  :main clojure-sample-backend.core)
+  :source-paths ["dev" "src"])
+  ;:main clojure-sample-backend.core)
 

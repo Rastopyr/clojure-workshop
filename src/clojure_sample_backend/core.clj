@@ -10,6 +10,5 @@
 
 (def wrapped-app (-> app
                      (wrap-defaults site-defaults)))
-
 (defn -main []
   (jetty/run-jetty #'wrapped-app {:join? false :port 8080}))
