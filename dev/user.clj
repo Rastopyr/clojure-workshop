@@ -1,15 +1,4 @@
 (ns user
-  (:require [clojure-sample-backend.core :as core]
-            [ring.adapter.jetty :as jetty]))
+  (:require [clojure-sample-backend.core :refer [start stop restart] :as core]))
 
-(def server (atom nil))
-
-(defn start []
-  (reset! server (jetty/run-jetty #'core/wrapped-app {:join? false :port 8080})))
-
-(defn stop []
-  (.stop @server))
-
-(defn restart []
-  (when @server (stop))
-  (start))
+;; (in-ns 'clojure-sample-backend.core)
