@@ -6,9 +6,9 @@ Sample application for the Clojure Kiev workshop
 
 start with
 
-   $ rlwrap lein repl
+    $ rlwrap lein repl
    
-   -> (start)
+    -> (start)
 
 ## License
 
